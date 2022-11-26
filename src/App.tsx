@@ -1,5 +1,5 @@
-import reactLogo from './assets/react.svg'
-import tailwindLogo from './assets/tailwind.svg'
+import reactLogo from '../public/react.svg'
+import tailwindLogo from '../public/tailwind.svg'
 import './App.css'
 import {Header} from "./components/Header/Header";
 import {Hello} from "./components/Hello/Hello";
