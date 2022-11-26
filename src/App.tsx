@@ -9,20 +9,23 @@ import {Skills} from "./components/Skills/Skills";
 import {Education} from "./components/Education/Education";
 import {Languages} from "./components/Languages/Languages";
 import {Interests} from "./components/Interests/Interests";
+import {useMediaQuery} from "react-responsive";
 
 function App() {
+
+    const isMobile = useMediaQuery({maxWidth: 767})
 
     return (
         <>
             <Header/>
             <div className="grid maingrid mb-10">
-                <div className="left">
+                <div className="text-left lg:text-right">
                     <Hello/>
-                    <Experience/>
+                    {isMobile ? <Connect/> : <Experience/>}
                 </div>
-                <div className="right">
-                    <Connect/>
-                    <Skills/>
+                <div className="text-left">
+                    {isMobile ? <><Skills/><Experience/></> : <Connect/>}
+                    {!isMobile && <Skills/>}
                     <Education/>
                     <Languages/>
                     <Interests/>

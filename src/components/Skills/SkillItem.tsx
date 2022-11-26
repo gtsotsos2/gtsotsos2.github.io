@@ -7,8 +7,8 @@ interface SkillProps {
 export const SkillItem = ({ label, list }: SkillProps) => {
     return (
         <div className="mb-5 grid subgrid">
-            <h4 className="subheading subleft">{label}</h4>
-            <ul className="subright">
+            <h4 className="subheading">{label}</h4>
+            <ul>
                 {list.map((item: string, index: number) => (
                     <li key={index}>{item}</li>
                 ))}
