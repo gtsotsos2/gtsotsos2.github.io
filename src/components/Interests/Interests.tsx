@@ -1,6 +1,6 @@
 
-import {InterestItem, InterestTypes} from './InterestItem';
-import {interests} from "../../data/interests";
+import {InterestItem} from './InterestItem';
+import {interests, InterestTypes} from "../../data/interests";
 
 
 export const Interests = () => {
