@@ -65,43 +65,6 @@
 
 }
 
-/*.logo:hover {*/
-/*    filter: drop-shadow(0 0 2em #646cffaa);*/
-/*}*/
-/*.logo.react:hover {*/
-/*    filter: drop-shadow(0 0 2em #61dafbaa);*/
-/*}*/
-
-.left {
-    grid-area: left;
-    text-align: left;
-}
-
-.right {
-    /*grid-area: left;*/
-    text-align: left;
-}
-
-@screen lg {
-    .left {
-        grid-area: left;
-        text-align: right;
-    }
-
-    .right {
-        grid-area: right;
-        text-align: left;
-    }
-}
-
-.subleft {
-    grid-area: left;
-}
-
-.subright {
-    grid-area: right;
-}
-
 .title {
     margin-bottom: 20px;
     font-size: 24px;
