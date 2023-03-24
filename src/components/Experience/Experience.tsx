@@ -4,7 +4,7 @@ import { Job } from "./ExperienceItem";
 export const Experience = () => {
   return (
     <div className="mb-10">
-      <h3 className="title">Experience</h3>
+      <h3 className="title">Experiences</h3>
       {jobs.map((job, index: number) => (
         <Job {...job} key={index} />
       ))}

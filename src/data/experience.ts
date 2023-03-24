@@ -1,7 +1,7 @@
 export const jobs: JobTypes[] = [
   {
     start_date: "October 2019",
-    end_date: "March 2021",
+    end_date: "March 2022",
     position: "Senior Software Engineer",
     company: "Zensurance",
     location: "Toronto, CA",
